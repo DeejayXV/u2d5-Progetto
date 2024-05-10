@@ -1,1 +1,81 @@
 /* Your styles here */
+body {
+    background-color: rgb(217, 217, 217);
+}
+
+main {
+    text-align: center;
+}
+
+header {
+    background-color: #142b3d;
+}
+
+#logo {
+    margin: 5px;
+    width: 150px;
+}
+
+nav {
+background-color: rgb(97, 97, 133);
+color: white;
+height: 1.4em
+}
+#table1 {
+    padding:5px;
+}
+
+#orangeTitle {
+    background-color: rgb(243, 145, 34);
+    margin: 20px;
+    color: white;
+}
+
+#holidayTitle {
+    background-image: url("../images/bg-image.png");
+    background-size: contain;
+    margin: 20px;
+color: white
+}
+
+h2 {
+    padding-top: 2em;
+}
+
+#sottoT {
+    padding: 1em;
+}
+
+#article1 {
+    margin: 20px;
+
+}
+
+#table2 {
+    background-color: white;
+    
+}
+
+.art {
+    margin: 20px;
+}
+
+#logo2 {
+    width: 100px;
+    text-align: center
+}
+
+footer {
+
+    background-color: #142b3d;
+}
+
+.tableTitle1 {
+    text-align: center;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: 20px;
+}
