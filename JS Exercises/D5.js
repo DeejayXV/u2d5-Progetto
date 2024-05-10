@@ -103,8 +103,8 @@ console.log(justTrims);
 */
 console.log("___________________ Esercizio 8 ___________________");
 for (let index = 0; index < cars.length; index++) {
-  const primaLettera = cars[index].color.charAt(0);
-  if (primaLettera === "b") {
+  const firstLetter = cars[index].color.charAt(0);
+  if (firstLetter === "b") {
     console.log("Fizz");
   } else {
     console.log("Buzz");
@@ -116,6 +116,11 @@ for (let index = 0; index < cars.length; index++) {
 */
 console.log("___________________ Esercizio 9 ___________________");
 const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
+
+// while (numericArray[index] === 32) {
+//   console.log(numericArray);
+//   index++;
+// }
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
