@@ -129,3 +129,73 @@ const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 
 */
 console.log("___________________ Esercizio 10 __________________");
 const charactersArray = ["g", "n", "u", "z", "d"];
+
+const nuovoArray = [];
+for (let index = 0; index < charactersArray.length; index++) {
+  switch (charactersArray[index]) {
+    case "a":
+      nuovoArray.push(1);
+      break;
+    case "b":
+      nuovoArray.push(2);
+      break;
+    case "c":
+      nuovoArray.push(3);
+      break;
+    case "d":
+      nuovoArray.push(4);
+      break;
+    case "e":
+      nuovoArray.push(5);
+      break;
+    case "f":
+      nuovoArray.push(6);
+      break;
+    case "g":
+      nuovoArray.push(7);
+      break;
+    case "h":
+      nuovoArray.push(8);
+      break;
+    case "i":
+      nuovoArray.push(9);
+      break;
+    case "l":
+      nuovoArray.push(10);
+      break;
+    case "m":
+      nuovoArray.push(11);
+      break;
+    case "n":
+      nuovoArray.push(12);
+      break;
+    case "o":
+      nuovoArray.push(13);
+      break;
+    case "p":
+      nuovoArray.push(14);
+      break;
+    case "q":
+      nuovoArray.push(15);
+      break;
+    case "r":
+      nuovoArray.push(16);
+      break;
+    case "s":
+      nuovoArray.push(17);
+      break;
+    case "t":
+      nuovoArray.push(18);
+      break;
+    case "u":
+      nuovoArray.push(19);
+      break;
+    case "v":
+      nuovoArray.push(20);
+      break;
+    case "z":
+      nuovoArray.push(21);
+      break;
+  }
+}
+console.log(charactersArray);
